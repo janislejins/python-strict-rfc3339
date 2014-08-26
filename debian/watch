@@ -1,0 +1,2 @@
+version=3
+https://pypi.python.org/packages/source/s/strict-rfc3339/strict-rfc3339-(.+)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))

@@ -1,0 +1,5 @@
+python-strict-rfc3339 (0.4-1) aneto; urgency=medium
+
+  * [4966a71] Imported Upstream version 0.4
+
+ -- Florian Preinstorfer <fp@xell.at>  Tue, 26 Aug 2014 14:56:44 +0200

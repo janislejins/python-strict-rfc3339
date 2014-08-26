@@ -1,0 +1,44 @@
+Source: python-strict-rfc3339
+Section: python
+Priority: extra
+Maintainer: Florian Preinstorfer <fp@xell.at>
+Build-Depends: debhelper (>= 9.0.0),
+               dh-python,
+               python-all (>= 2.6),
+               python-setuptools,
+               python3-all (>= 3.2),
+               python3-setuptools
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.2
+Standards-Version: 3.9.5
+Homepage: https://pypi.python.org/pypi/strict-rfc3339
+
+Package: python-strict-rfc3339
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Provides: ${python:Provides}
+Description: Strict, simple, lightweight RFC3339 functions
+ This package tries to stick as closely as possible to RFC3339. Its goals are:
+  - Convert unix timestamps to and from RFC3339.
+  - Either produce RFC3339 strings with a UTC offset (Z) or with the offset
+    that the C time module reports is the local timezone offset.
+  - Simple with minimal dependencies/libraries.
+  - Avoid timezones as much as possible.
+  - Be very strict and follow RFC3339 as closely as possible.
+ .
+ This package provides the Python 2.x module.
+
+Package: python3-strict-rfc3339
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Provides: ${python3:Provides}
+Description: Strict, simple, lightweight RFC3339 functions - Python 3.x
+ This package tries to stick as closely as possible to RFC3339. Its goals are:
+  - Convert unix timestamps to and from RFC3339.
+  - Either produce RFC3339 strings with a UTC offset (Z) or with the offset
+    that the C time module reports is the local timezone offset.
+  - Simple with minimal dependencies/libraries.
+  - Avoid timezones as much as possible.
+  - Be very strict and follow RFC3339 as closely as possible.
+ .
+ This package provides the Python 3.x module.
