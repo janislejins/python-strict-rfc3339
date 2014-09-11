@@ -1,5 +1,5 @@
 python-strict-rfc3339 (0.4-1) unstable; urgency=medium
 
-  * [4966a71] Imported Upstream version 0.4
+  * [4966a71] Imported Upstream version 0.4 (Closes: #761152).
 
  -- Florian Preinstorfer <fp@xell.at>  Thu, 11 Sep 2014 08:11:46 +0200
