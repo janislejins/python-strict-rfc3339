@@ -1,4 +1,4 @@
-python-strict-rfc3339 (0.4-1) aneto; urgency=medium
+python-strict-rfc3339 (0.4-1) unstable; urgency=medium
 
   * [4966a71] Imported Upstream version 0.4
 

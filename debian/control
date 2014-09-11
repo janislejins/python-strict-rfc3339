@@ -19,12 +19,12 @@ Depends: ${misc:Depends}, ${python:Depends}
 Provides: ${python:Provides}
 Description: Strict, simple, lightweight RFC3339 functions
  This package tries to stick as closely as possible to RFC3339. Its goals are:
-  - Convert unix timestamps to and from RFC3339.
-  - Either produce RFC3339 strings with a UTC offset (Z) or with the offset
+  * Convert unix timestamps to and from RFC3339.
+  * Either produce RFC3339 strings with a UTC offset (Z) or with the offset
     that the C time module reports is the local timezone offset.
-  - Simple with minimal dependencies/libraries.
-  - Avoid timezones as much as possible.
-  - Be very strict and follow RFC3339 as closely as possible.
+  * Simple with minimal dependencies/libraries.
+  * Avoid timezones as much as possible.
+  * Be very strict and follow RFC3339 as closely as possible.
  .
  This package provides the Python 2.x module.
 
@@ -34,11 +34,11 @@ Depends: ${misc:Depends}, ${python3:Depends}
 Provides: ${python3:Provides}
 Description: Strict, simple, lightweight RFC3339 functions - Python 3.x
  This package tries to stick as closely as possible to RFC3339. Its goals are:
-  - Convert unix timestamps to and from RFC3339.
-  - Either produce RFC3339 strings with a UTC offset (Z) or with the offset
+  * Convert unix timestamps to and from RFC3339.
+  * Either produce RFC3339 strings with a UTC offset (Z) or with the offset
     that the C time module reports is the local timezone offset.
-  - Simple with minimal dependencies/libraries.
-  - Avoid timezones as much as possible.
-  - Be very strict and follow RFC3339 as closely as possible.
+  * Simple with minimal dependencies/libraries.
+  * Avoid timezones as much as possible.
+  * Be very strict and follow RFC3339 as closely as possible.
  .
  This package provides the Python 3.x module.
