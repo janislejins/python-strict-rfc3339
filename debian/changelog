@@ -1,3 +1,15 @@
+python-strict-rfc3339 (0.4-2) unstable; urgency=medium
+
+  * [89544e9] Apply suggestions from Thomas Goirand.
+     * Use debhelper (>= 9)
+     * Remove X-Python-Version and X-Python3-Version fields.
+     * Add Debian Python Modules Team as Uploader.
+     * Use alioth as packaging home.
+     * Fix copyright reference to GPL-3.
+     * Fix changelog for initial release.
+
+ -- Florian Preinstorfer <fp@xell.at>  Mon, 29 Sep 2014 13:49:39 +0200
+
 python-strict-rfc3339 (0.4-1) unstable; urgency=medium
 
   * Initial release (Closes: #761152).
