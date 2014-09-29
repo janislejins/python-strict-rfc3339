@@ -2,18 +2,17 @@ Source: python-strict-rfc3339
 Section: python
 Priority: extra
 Maintainer: Florian Preinstorfer <fp@xell.at>
-Build-Depends: debhelper (>= 9.0.0),
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9),
                dh-python,
-               python-all (>= 2.6),
+               python-all (>= 2.6.6-3~),
                python-setuptools,
                python3-all (>= 3.2),
                python3-setuptools
-X-Python-Version: >= 2.6
-X-Python3-Version: >= 3.2
 Standards-Version: 3.9.5
 Homepage: https://pypi.python.org/pypi/strict-rfc3339
-Vcs-Browser: https://github.com/nblock/python-strict-rfc3339
-Vcs-Git: git://github.com/nblock/python-strict-rfc3339.git
+Vcs-Browser: https://anonscm.debian.org/git/python-modules/packages/python-strict-rfc3339.git
+Vcs-Git: git://anonscm.debian.org/python-modules/packages/python-strict-rfc3339.git
 
 Package: python-strict-rfc3339
 Architecture: all
