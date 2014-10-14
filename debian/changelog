@@ -1,3 +1,11 @@
+python-strict-rfc3339 (0.5-1) unstable; urgency=medium
+
+  * [f6dbb4a] Imported Upstream version 0.5.
+    * Reject trailing garbage (github #1)
+  * [bbe6c07] Bump standards version to 3.9.6 (no changes).
+
+ -- Florian Preinstorfer <fp@xell.at>  Tue, 14 Oct 2014 08:12:59 +0200
+
 python-strict-rfc3339 (0.4-2) unstable; urgency=medium
 
   * [89544e9] Apply suggestions from Thomas Goirand.
