@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 9),
                python-setuptools,
                python3-all (>= 3.2),
                python3-setuptools
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://pypi.python.org/pypi/strict-rfc3339
 Vcs-Browser: https://anonscm.debian.org/git/python-modules/packages/python-strict-rfc3339.git
 Vcs-Git: git://anonscm.debian.org/python-modules/packages/python-strict-rfc3339.git
