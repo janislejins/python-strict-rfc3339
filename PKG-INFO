@@ -1,6 +1,6 @@
-Metadata-Version: 1.0
+Metadata-Version: 1.1
 Name: strict-rfc3339
-Version: 0.4
+Version: 0.5
 Summary: Strict, simple, lightweight RFC3339 functions
 Home-page: http://www.danielrichman.co.uk/projects/strict-rfc3339.html
 Author: Daniel Richman, Adam Greig
